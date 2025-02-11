@@ -4,8 +4,8 @@ import NavBar from "./components/NavBar/NavBar"
 function App() {
   return (
     <>
-    {/* <Nav/> */}
     <NavBar/>
+    <Nav/>
       <h1 className='text-4xl text-center'>Vite + React</h1>
     </>
   )
