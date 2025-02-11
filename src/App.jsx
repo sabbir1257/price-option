@@ -1,12 +1,14 @@
-import Nav from "./components/DaisyNav/DaisyNav"
+// import Nav from "./components/DaisyNav/DaisyNav"
 import NavBar from "./components/NavBar/NavBar"
+import PriceOptions from "./components/PriceOptions/PriceOptions"
 
 function App() {
   return (
     <>
     <NavBar/>
-    <Nav/>
+    {/* <Nav/> */}
       <h1 className='text-4xl text-center'>Vite + React</h1>
+      <PriceOptions/>
     </>
   )
 }

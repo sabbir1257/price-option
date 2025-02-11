@@ -15,7 +15,7 @@ const NavBar = () => {
 
 
      return (
-          <nav>
+          <nav className='p-3 bg-yellow-200'>
                <div className='text-2xl md:hidden' onClick={() => setOpen(!open)}>
                     {
                          open === true ?
@@ -23,7 +23,7 @@ const NavBar = () => {
                               : <RiMenu2Fill />
                     }
                </div>
-               <ul className='md:flex'>
+               <ul className={`duration-1000 rounded-md absolute md:static p-3 bg-yellow-200 md:flex ${open ? 'top-12' : '-top-60'}`}>
                     {
                          routes.map(route => <Link key={route.id} route={route}></Link>)
                     }
