@@ -7,7 +7,7 @@ function App() {
     <>
     <NavBar/>
     {/* <Nav/> */}
-      <h1 className='text-4xl text-center'>Vite + React</h1>
+      <h1 className='my-8 text-4xl text-center'>Vite + React</h1>
       <PriceOptions/>
     </>
   )
