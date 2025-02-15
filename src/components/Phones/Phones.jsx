@@ -31,7 +31,7 @@ const Phones = () => {
      return (
           <div>
                <div className='text-center'>
-                    {loading && <ScaleLoader />}
+                    {loading && <ScaleLoader color="hsla(212, 96%, 78%, 1)" />}
                </div>
                <BarChart width={600} height={400} data={phones}>
                     <CartesianGrid strokeDasharray="3 3" />
